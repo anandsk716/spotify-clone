@@ -4,3 +4,33 @@
   box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
+/* Reusable classes  */
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.border {
+  border: 2px solid red;
+}
+
+/* Main Styling */
+
+.left {
+  width: 25vw;
+  height: 100vh;
+}
+
+.right {
+  width: 75vw;
+  width: 75vw;
+  height: 100vh;
+}
